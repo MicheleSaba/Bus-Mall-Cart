@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {
+    font-size: 30px; 
+    text-align: center; 
+}
+a {
+    text-decoration: none; 
+    
+}
+nav {
+    background-color: #34e1f1; 
+    height: 60px;  
+}
+nav a {
+    margin: 25px 10px 0 10px; 
+    vertical-align: middle; 
+    float: left;
+}
+#itemCount {
+    float: right; 
+    margin: 25px 10px 0 10px; 
+    color: #fff; 
+    font-size: 15px; 
+}
+#cartContents {
+    height: 400px; 
+    background-color: antiquewhite;
+}
