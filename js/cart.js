@@ -1,7 +1,7 @@
 'use strict';
 
 var Cart = [];
-console.log(Cart[0]);
+
 
 // Create an event listener so that when the delete link is clicked, the removeItemFromCart method is invoked.
 var table = document.getElementById('cart');
