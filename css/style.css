@@ -1,22 +1,29 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+header {
+    background-color: #1a3c7c;
+    min-height: 80px;
+    padding: 25px 0px;
+}
 h1 {
     font-size: 30px; 
+    padding: 20px 0px; 
     text-align: center; 
+    color: #fff;
 }
 a {
     text-decoration: none; 
-    
+    color:  #1a3c7c;
 }
 nav {
-    background-color: #34e1f1; 
     height: 60px;  
+    background-color: #fff;
 }
 nav a {
-    margin: 25px 10px 0 10px; 
+    margin: 25px 25px 0 10px; 
     vertical-align: middle; 
-    float: left;
+    float: right;
 }
 #itemCount {
     float: right; 
@@ -26,5 +33,37 @@ nav a {
 }
 #cartContents {
     height: 400px; 
-    background-color: antiquewhite;
+}
+.btn {
+    border: solid 3px #1a3c7c;
+    width: 200px; 
+    height: 50px; 
+    color: #1a3c7c;
+}
+.btn:hover {
+    background-color: #1a3c7c; 
+    border: solid 3px #fff;
+    width: 200px; 
+    height: 50px; 
+    color: #fff;
+}
+.copy {
+    text-align: center; 
+    padding: 25px; 
+}
+#items {
+    width: 250px; 
+    height: 40px; 
+    background-color: #fff;
+    font-size: 16px;
+}
+#quantity {
+    width: 250px; 
+    height: 40px; 
+    background-color: #fff;
+    font-size: 16px;
+}
+img {
+    width: 300px; 
+    height: 300px;
 }
