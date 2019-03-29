@@ -33,8 +33,9 @@ function handleSubmit(event) {
 function addSelectedItemToCart() {
   var item = document.getElementById("items").value
   var quantity = document.getElementById("quantity").value
+  var filePath = 
 
-  console.log(new Cart (item , quantity));
+  console.log(new Cart (item , quantity, filePath));
 
   // TODO: suss out the item picked from the select list
   // TODO: get the quantity
